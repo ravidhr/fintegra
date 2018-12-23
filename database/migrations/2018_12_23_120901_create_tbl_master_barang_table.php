@@ -17,6 +17,7 @@ class CreateTblMasterBarangTable extends Migration
             $table->increments('id_barang');
             $table->integer('kategori_id');
             $table->string('nm_barang');
+            $table->integer('stok_barang');
             $table->integer('harga_beli');
             $table->integer('harga_jual');
             $table->integer('id_supplier');

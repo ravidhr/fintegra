@@ -18,7 +18,7 @@ class CreateTblKuponTable extends Migration
             $table->integer('id_barang');
             $table->double('diskon');
             $table->date('tgl_mulai_berlaku');
-            $table->date('tgl_expired_date');
+            $table->date('tgl_expired');
         });
     }
 
